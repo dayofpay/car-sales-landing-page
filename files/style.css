@@ -1,15 +1,11 @@
 .bg-image {
-    /* The image used */
     background-image: url("audi.jpg");
   
-    /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
   
-    /* Full height */
     height: 100%;
   
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,14 +26,13 @@ body, html {
   * {
     box-sizing: border-box;
   }
-/* Position text in the middle of the page/image */
 .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
     color: white;
     overflow-x: auto;
     overflow-y: hidden;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed; 
     font-weight: bold;
     border: 3px solid #f1f1f1;
     box-shadow: 5px 5px 10px 1px #000;
